@@ -6,7 +6,7 @@ import requests
 import os
 model = tf.keras.models.load_model('my_model.h5')
 
-Token = '7124280059:AAFUpLMSsUhnEwlIlbL0TIHF1J9Vljl0Dsc'
+Token = 'Token'
 WEBHOOK_URL = "https://ef7d-88-201-190-11.ngrok-free.app"
 
 bot = telebot.TeleBot(Token)
